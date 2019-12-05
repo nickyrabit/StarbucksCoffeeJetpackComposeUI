@@ -360,7 +360,7 @@ fun PopularCoffee(){
                         Card(elevation = 10.dp,shape = RoundedCornerShape(8.dp)) {
 
                             Container(width = 130.dp) {
-                                Column() {
+                                Column {
                                     Container(height = 180.dp,width = 130.dp) {
                                         Clip(shape = RoundedCornerShape(topRight = 8.dp,topLeft = 8.dp)) {
                                             DrawImage(image = brew_one)
@@ -425,7 +425,7 @@ fun PopularCoffee(){
 
                                     }
                                     Padding(left = 10.dp){
-                                        Column() {
+                                        Column {
 
 
                                             Text(
@@ -567,7 +567,7 @@ fun DashboardSummary(){
 @Composable
 fun TitleBar(){
 
-    MaterialTheme() {
+    MaterialTheme {
         Row(
             mainAxisSize = LayoutSize.Expand,
             modifier = Spacing(10.dp),
