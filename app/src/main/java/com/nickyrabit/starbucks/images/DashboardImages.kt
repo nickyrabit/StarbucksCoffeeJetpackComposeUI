@@ -1,7 +1,8 @@
-package com.nickyrabit.starbucks
+package com.nickyrabit.starbucks.images
 
 import androidx.compose.unaryPlus
 import androidx.ui.res.imageResource
+import com.nickyrabit.starbucks.R
 
 
 //These are images for the dashboard screen
