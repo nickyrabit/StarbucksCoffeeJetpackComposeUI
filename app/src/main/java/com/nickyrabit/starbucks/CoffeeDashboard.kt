@@ -78,7 +78,7 @@ fun FoodDivider() {
     MaterialTheme() {
 
         Column(){
-            
+ // I have used height spacer to make space and the whole unit is in column
             Container(){
                 Row(mainAxisAlignment = MainAxisAlignment.SpaceBetween,
                     mainAxisSize = LayoutSize.Expand) {
@@ -93,8 +93,6 @@ fun FoodDivider() {
                 }
             }
             HeightSpacer(height = 15.dp)
-
-
             Row(mainAxisSize = LayoutSize.Expand,mainAxisAlignment = MainAxisAlignment.SpaceBetween){
 
                 Container(height = 50.dp,width = 70.dp) {
