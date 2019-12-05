@@ -65,10 +65,7 @@ fun CoffeeDashboard() {
 @Preview
 @Composable
 fun FoodDivider() {
-    val foodOne = +imageResource(R.drawable.food_one)
-    val foodTwo = +imageResource(R.drawable.food_two)
-    val foodThree = +imageResource(R.drawable.food_three)
-   MaterialTheme() {
+    MaterialTheme() {
 
            Column(){
 
@@ -247,8 +244,6 @@ fun FoodDivider() {
 
 @Composable
 fun PopularCoffee(){
-    val brew_one =+imageResource(R.drawable.brew_one)
-    val brew_two =+imageResource(R.drawable.brew_two)
 
     MaterialTheme() {
     Container(padding = EdgeInsets(left = 10.dp,right = 10.dp)){
@@ -546,8 +541,6 @@ fun DashboardSummary(){
 
 @Composable
 fun TitleBar(){
-    val image = +imageResource(R.drawable.round_shopping_basket_white_18dp)
-    val icon = +imageResource(R.drawable.ic_launcher)
 
     MaterialTheme() {
         Row(
