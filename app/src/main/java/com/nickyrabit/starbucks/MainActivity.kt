@@ -38,8 +38,6 @@ class MainActivity : AppCompatActivity() {
 
 @Composable
 fun CoffeeDashboard() {
-    val image = +imageResource(R.drawable.round_shopping_basket_white_18dp)
-    val icon = +imageResource(R.drawable.ic_launcher)
     Padding(left = 10.dp,top = 10.dp) {
         VerticalScroller() {
         Column {
@@ -64,18 +62,12 @@ fun CoffeeDashboard() {
 }
 
 
-@Composable
-fun DefaultPreview() {
-    MaterialTheme {
-        CoffeeDashboard()
-    }
-}
 @Preview
 @Composable
 fun FoodDivider() {
-    val food_one = +imageResource(R.drawable.food_one)
-    val food_two = +imageResource(R.drawable.food_two)
-    val food_three = +imageResource(R.drawable.food_three)
+    val foodOne = +imageResource(R.drawable.food_one)
+    val foodTwo = +imageResource(R.drawable.food_two)
+    val foodThree = +imageResource(R.drawable.food_three)
    MaterialTheme() {
 
            Column(){
@@ -100,7 +92,7 @@ fun FoodDivider() {
 
                Container(height = 50.dp,width = 70.dp) {
                    Clip(shape = RoundedCornerShape(topRight = 8.dp,topLeft = 8.dp,bottomRight = 8.dp,bottomLeft = 8.dp)) {
-                       DrawImage(image = food_one)
+                       DrawImage(image = foodOne)
                    }
                }
                Column() {
@@ -150,7 +142,7 @@ fun FoodDivider() {
 
                Container(height = 50.dp,width = 70.dp) {
                    Clip(shape = RoundedCornerShape(topRight = 8.dp,topLeft = 8.dp,bottomRight = 8.dp,bottomLeft = 8.dp)) {
-                       DrawImage(image = food_two)
+                       DrawImage(image = foodTwo)
                    }
                }
                Column() {
@@ -199,7 +191,7 @@ fun FoodDivider() {
 
                Container(height = 50.dp,width = 70.dp) {
                    Clip(shape = RoundedCornerShape(topRight = 8.dp,topLeft = 8.dp,bottomRight = 8.dp,bottomLeft = 8.dp)) {
-                       DrawImage(image = food_three)
+                       DrawImage(image = foodThree)
                    }
                }
                Column() {
