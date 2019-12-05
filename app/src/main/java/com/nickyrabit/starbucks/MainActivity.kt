@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
-
+            // This is the main screen
                 CoffeeDashboard()
             }
         }
