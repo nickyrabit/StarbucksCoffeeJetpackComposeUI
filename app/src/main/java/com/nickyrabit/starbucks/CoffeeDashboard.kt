@@ -21,20 +21,43 @@ import androidx.ui.text.font.FontWeight
 import androidx.ui.tooling.preview.Preview
 import com.nickyrabit.starbucks.images.*
 
+/**
+ *
+ * Nicholaus Legnard
+ *
+ *  (+255) 685 097 713
+ *
+ *  nickyrabit@gmail.com
+ *
+ *  nicky@nickylegnard.com
+ *
+ *  Instagram : @nicktabit
+ *  Twitter : @nngailo
+ */
 
 @Composable
 fun CoffeeDashboard() {
     Padding(left = 10.dp,top = 10.dp) {
         VerticalScroller() {
             Column {
-
+                // This is the Title Bar Composable Function
                 TitleBar()
+
+                //Leaving Space from one component to another
                 HeightSpacer(height = 30.dp)
+
+                // This is the dashboard summary Composable Function
                 DashboardSummary()
+
+                //Leaving Space from one component to another
                 HeightSpacer(height = 30.dp)
+
+                //Composable Function showing the popular cofffee
                 PopularCoffee()
+
                 Padding(left = 8.dp){
                     VerticalScroller() {
+                        // Food divider's Composable Function
                         FoodDivider()
                     }
 
@@ -47,15 +70,15 @@ fun CoffeeDashboard() {
 
 }
 
-
+//You can annotate with @Preview in a composable function in order to see it's layout visually in the Preview Panel.
+//It is possible to place these composable function outside of this file
 @Preview
 @Composable
 fun FoodDivider() {
     MaterialTheme() {
 
         Column(){
-
-
+            
             Container(){
                 Row(mainAxisAlignment = MainAxisAlignment.SpaceBetween,
                     mainAxisSize = LayoutSize.Expand) {
