@@ -1,4 +1,4 @@
-# Starbucks Coffee made with JetpackCompose UI Toolkit
+# Starbucks Coffee made with Jetpack Compose, Kotlin's UI Toolkit
 I have implemented Tugboi's design using Jetpack Compose . (https://www.uplabs.com/posts/starbucks-d6f47b84-e562-43d7-8bec-2779592942d9) 
 
 Jetpack Compose is a Kotlin first UI toolkit which simplifies and accelerates UI development on Android.
